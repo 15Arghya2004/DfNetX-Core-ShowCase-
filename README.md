@@ -400,7 +400,7 @@ The platform is fully operational without AI keys. All detection, ML scoring, an
 ## Directory Structure
 
 ```
-mini-soc-defense-platform/
+DfNetX-Core/
 |
 +-- main.py                       <- FastAPI entrypoint and engine lifecycle
 +-- docker-compose.yml            <- 8-container orchestration definition
@@ -478,8 +478,8 @@ mini-soc-defense-platform/
 ### 1. Clone and Configure
 
 ```bash
-git clone https://github.com/your-org/dnetx-platform.git
-cd dnetx-platform
+git clone https://github.com/15Arghya2004/DfNetX-Core-ShowCase-.git
+cd DfNetX-Core-ShowCase-
 cp .env.example .env
 ```
 
@@ -829,8 +829,8 @@ ML Engine unit tests: **7/7 passing**.
 ### Development Setup
 
 ```bash
-git clone https://github.com/your-org/dnetx-platform.git
-cd dnetx-platform
+git clone https://github.com/15Arghya2004/DfNetX-Core-ShowCase-.git
+cd DfNetX-Core-ShowCase-
 pip install -r requirements.txt
 pip install pytest pytest-asyncio httpx
 python validation/test_sentrix_v8.py    # Must pass before making changes
