@@ -71,25 +71,25 @@ export default function SecurifyHero() {
         <div className="absolute right-6 md:right-24 top-[14%]">
           <div className="flex items-center gap-3 justify-end">
             <div className="hidden md:block h-px w-24 bg-white/40 rotate-[20deg]" />
-            <span className="text-4xl md:text-5xl font-medium tracking-tight">+65k</span>
+            <span className="text-4xl md:text-5xl font-medium tracking-tight">40+</span>
           </div>
-          <div className="text-xs md:text-sm text-white/70 mt-1 text-right">startups use</div>
+          <div className="text-xs md:text-sm text-white/70 mt-1 text-right">rest api endpoints</div>
         </div>
 
         <div className="absolute left-6 md:left-20 bottom-20 md:bottom-24">
           <div className="flex items-center gap-3">
-            <span className="text-4xl md:text-5xl font-medium tracking-tight">+1.5b</span>
+            <span className="text-4xl md:text-5xl font-medium tracking-tight">8</span>
             <div className="hidden md:block h-px w-24 bg-white/40 rotate-[-20deg]" />
           </div>
-          <div className="text-xs md:text-sm text-white/70 mt-1">gb data was protected</div>
+          <div className="text-xs md:text-sm text-white/70 mt-1">microservices in one stack</div>
         </div>
 
         <div className="absolute right-6 md:right-20 bottom-16 md:bottom-20">
           <div className="flex items-center gap-3 justify-end">
             <div className="hidden md:block h-px w-24 bg-white/40 rotate-[-20deg]" />
-            <span className="text-4xl md:text-5xl font-medium tracking-tight">+300k</span>
+            <span className="text-4xl md:text-5xl font-medium tracking-tight">22/22</span>
           </div>
-          <div className="text-xs md:text-sm text-white/70 mt-1 text-right">downloads</div>
+          <div className="text-xs md:text-sm text-white/70 mt-1 text-right">validation tests passing</div>
         </div>
       </div>
 
