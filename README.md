@@ -12,6 +12,10 @@
 [![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-Mapped-FF0000?style=flat-square)](https://attack.mitre.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Tests](https://img.shields.io/badge/Tests-22%2F22%20Passing-brightgreen?style=flat-square)](#testing)
+[![Website](https://img.shields.io/badge/Website-Live%20Showcase-black?style=flat-square&logo=googlechrome&logoColor=white)](https://15arghya2004.github.io/DfNetX-Core-ShowCase-/)
+
+> ### 🌐 [**Check out the live showcase website →**](https://15arghya2004.github.io/DfNetX-Core-ShowCase-/)
+> A dedicated site with an interactive walkthrough of DNetX's key benefits. Source lives in [`website/`](website/).
 
 ### Platform Overview Dashboard
 
