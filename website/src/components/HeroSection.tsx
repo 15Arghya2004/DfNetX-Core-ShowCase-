@@ -1,6 +1,8 @@
 const VIDEO_URL =
   'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_063509_7d167302-4fd4-480b-8260-18ab572333d4.mp4'
 
+const REPO_URL = 'https://github.com/15Arghya2004/DfNetX-Core-ShowCase-'
+
 function Logo() {
   return (
     <svg viewBox="0 0 256 256" className="h-5 w-5" fill="#ffffff">
@@ -14,32 +16,47 @@ function Navbar() {
     <nav className="absolute z-20 top-0 left-0 right-0 px-6 md:px-10 pt-6 flex items-center justify-between gap-4">
       <div className="flex items-center gap-2 bg-neutral-900/90 backdrop-blur rounded-full pl-4 pr-6 py-3">
         <Logo />
-        <span className="text-white text-sm font-normal tracking-tight">securify</span>
+        <span className="text-white text-sm font-normal tracking-tight">dfnetx</span>
       </div>
 
       <div className="hidden md:flex items-center gap-1 bg-neutral-900/90 backdrop-blur rounded-full px-3 py-2">
-        <a href="#" className="text-neutral-300 hover:text-white transition-colors text-sm px-5 py-2 rounded-full">
-          platform
+        <a href="#architecture" className="text-neutral-300 hover:text-white transition-colors text-sm px-5 py-2 rounded-full">
+          architecture
         </a>
-        <a href="#" className="text-neutral-300 hover:text-white transition-colors text-sm px-5 py-2 rounded-full">
-          solutions
+        <a href="#ml-engine" className="text-neutral-300 hover:text-white transition-colors text-sm px-5 py-2 rounded-full">
+          ml engine
         </a>
-        <a href="#" className="text-neutral-300 hover:text-white transition-colors text-sm px-5 py-2 rounded-full">
+        <a
+          href={REPO_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-neutral-300 hover:text-white transition-colors text-sm px-5 py-2 rounded-full"
+        >
           company
         </a>
-        <a href="#" className="text-neutral-300 hover:text-white transition-colors text-sm px-5 py-2 rounded-full">
+        <a
+          href={`${REPO_URL}/blob/main/API_REFERENCE.md`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-neutral-300 hover:text-white transition-colors text-sm px-5 py-2 rounded-full"
+        >
           support
         </a>
       </div>
 
-      <button className="bg-white text-black text-sm font-normal rounded-full px-6 py-3 hover:bg-neutral-200 transition-colors">
+      <a
+        href={REPO_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-white text-black text-sm font-normal rounded-full px-6 py-3 hover:bg-neutral-200 transition-colors"
+      >
         get started
-      </button>
+      </a>
     </nav>
   )
 }
 
-export default function SecurifyHero() {
+export default function HeroSection() {
   return (
     <section className="relative h-screen w-full overflow-hidden bg-black">
       <video
@@ -54,18 +71,24 @@ export default function SecurifyHero() {
       <Navbar />
 
       <div className="relative h-full w-full">
-        <h1 className="hero-title absolute text-white font-medium text-[14vw] md:text-[13vw] left-4 md:left-10 top-[18%]">
+        <h1
+          className="hero-title hero-outline absolute font-medium text-[14vw] md:text-[13vw] left-4 md:left-10 top-[18%]"
+        >
           protect
         </h1>
-        <h1 className="hero-title absolute text-white font-medium text-[14vw] md:text-[13vw] right-4 md:right-10 top-[38%]">
+        <h1
+          className="hero-title hero-outline absolute font-medium text-[14vw] md:text-[13vw] right-4 md:right-10 top-[38%]"
+        >
           your
         </h1>
-        <h1 className="hero-title absolute text-white font-medium text-[14vw] md:text-[13vw] left-[18%] md:left-[28%] top-[58%]">
+        <h1
+          className="hero-title hero-outline absolute font-medium text-[14vw] md:text-[13vw] left-[18%] md:left-[28%] top-[58%]"
+        >
           data
         </h1>
 
         <p className="absolute left-6 md:left-10 top-[46%] max-w-[240px] text-[15px] leading-snug text-white/90">
-          we can guarding your data with utmost care, empowering you with privacy everywhere
+          we guard your data with the utmost care, empowering you with privacy everywhere
         </p>
 
         <div className="absolute right-6 md:right-24 top-[14%]">
