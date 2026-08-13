@@ -15,7 +15,7 @@
 [![Website](https://img.shields.io/badge/Website-Live%20Showcase-black?style=flat-square&logo=googlechrome&logoColor=white)](https://15arghya2004.github.io/DfNetX-Core-ShowCase-/)
 
 > ### 🌐 [**Check out the live showcase website →**](https://15arghya2004.github.io/DfNetX-Core-ShowCase-/)
-> A dedicated site with an interactive walkthrough of DNetX's key benefits. Source lives in [`website/`](website/).
+> A full-screen "securify" hero landing page for the DNetX showcase. Source lives in [`website/`](website/).
 
 ### Platform Overview Dashboard
 

@@ -1,7 +1,8 @@
-# DNetX Showcase Website
+# securify — Showcase Website
 
-The marketing/showcase site for **DNetX [V10]**, built with React, TypeScript,
-Vite, and Tailwind CSS.
+A full-screen hero landing page ("securify" — a data-security SaaS concept)
+for the DNetX [V10] showcase repo, built with React, TypeScript, Vite, and
+Tailwind CSS.
 
 Live at: https://15arghya2004.github.io/DfNetX-Core-ShowCase-/
 
