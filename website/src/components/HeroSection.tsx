@@ -1,5 +1,4 @@
-const VIDEO_URL =
-  'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260418_063509_7d167302-4fd4-480b-8260-18ab572333d4.mp4'
+import NetworkBackground from './NetworkBackground'
 
 const REPO_URL = 'https://github.com/15Arghya2004/DfNetX-Core-ShowCase-'
 
@@ -59,14 +58,7 @@ function Navbar() {
 export default function HeroSection() {
   return (
     <section className="relative h-screen w-full overflow-hidden bg-black">
-      <video
-        className="absolute inset-0 w-full h-full object-cover"
-        autoPlay
-        loop
-        muted
-        playsInline
-        src={VIDEO_URL}
-      />
+      <NetworkBackground />
 
       <Navbar />
 
