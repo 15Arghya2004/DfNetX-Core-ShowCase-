@@ -1,4 +1,4 @@
-# securify — Showcase Website
+# DfNetX — Showcase Website
 
 A full-screen hero landing page ("securify" — a data-security SaaS concept)
 for the DNetX [V10] showcase repo, built with React, TypeScript, Vite, and
